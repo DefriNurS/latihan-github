@@ -1,0 +1,191 @@
+html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: Century Gothic;
+	background-image: linear-gradient(to right, #FCF0C8 , #FACE7F);
+	/*background: #DEB887;*/
+	background-repeat: repeat-y;
+	background-size: auto ;
+	display: block;
+
+
+
+}
+
+/*#logo {
+	
+	float: left;
+	display: inline;
+	position: relative;
+	top: -50px;
+	left: 1px;
+	display: none;
+}
+
+#logo img {
+	width: 50px;
+	opacity: 0;
+}*/
+
+.logo{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10PX;
+	padding: 0px 38px;
+	font-family: 'Ralewey', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+
+}
+
+.logo a{
+		text-decoration: none;
+		color: #630A10;
+
+}
+
+.nav {
+	position: absolute;
+	top: 0;
+	left:0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	height: px;
+	width: 100%;
+
+}
+
+.nav ul {
+	list-style: none;
+	right: ;
+	cursor: pointer;
+	float: right;
+	margin-left:  140px;
+}
+
+.nav ul li {
+	list-style: none;
+	display: inline-block;
+	color: #911F27;
+	font-family: 'Ralewey', sans-serif;
+	padding: 15px 15px;
+	font-weight: 400;
+}
+
+.nav ul li:hover {
+	border-bottom: 3px solid #911F27;
+	transition: .3s ease;
+}
+
+#logo{
+	width: 300px;
+	position: relative;
+	top:  px;
+	left: px;
+	float: left;
+}
+
+
+#header {
+	font-size: 30px;
+	color: #911F27;
+	text-align: center ;
+	font-family: arial, fantasy;
+	position: absolute;
+	top: 40% ;
+	left: 30%;
+	transform: translate(-50%, -50%) ;
+
+
+}
+
+#header2 {
+	text-align: center ;
+	font-size: 35px;
+	color: #911F27;
+	fill: wh;
+	font-family:arial, fantasy;
+	position: absolute;
+	top: 50% ;
+	left: 30%;
+	transform: translate(-50%, -50%) ;
+
+
+}
+
+#header-content {
+	text-align: left ;
+	color: ;
+	font-family: arial, fantasy;
+	position: absolute;
+	top: 61% ;
+	left: 30%;
+	transform: translate(-50%, -50%) ;
+
+
+}
+
+#header3 {
+	text-align: center ;
+	font-family: arial, fantasy;
+	position: absolute;
+	opacity: 40%;
+
+	top: 71% ;
+	left: 20.5%;
+	transform: translate(-50%, -50%) ;
+
+
+}
+
+p {
+	line-height: 10px;
+
+}
+
+#foto img{
+	width: 500px;
+	filter: drop-shadow(4em 4em .75em);
+	position: absolute;
+	top: 50% ;
+	left: 70%;
+	transform: translate(-50%, -50%)  ;
+
+
+
+}
+
+#pesansekarang {
+	width: 150px;
+	height: 42px;
+	position: absolute;
+	top: 79%;
+	left: 15%;
+	border-radius: 10px 10px 10px 10px;
+	border: none;
+	color: white ;
+	cursor: pointer;
+	background-color: orange;
+	box-shadow: 0px 21px 53px rgba(46, 46, 46, 0.66);	
+
+}
+
+#pesansekarang:hover {
+	transition: all .5s ease;
+	background-color: #ea0227;
+	box-shadow: 0px 21px 53px rgba(46, 46, 46, 0.66);	
+
+}
+
+
+
