@@ -558,3 +558,198 @@ nav ul li a{
     top: 51%;
     left: 56.5%;
 }
+@media (max-width: 810px){
+    .feature .item2 {
+        font-size: 60px;
+        top: 30%;
+        left: 40%;
+     }
+     .feature .item1 {
+        font-size: 26px;
+        top: 27%;
+        left: 40%;
+     }
+     .feature .item3 {
+        font-size: 24px;
+        top: 40%;
+        left: 47%;
+     }
+     .feature .item4 {
+        font-size: 15px;
+        width: 300px;
+        top: 43%;
+        left: 47%;
+     }
+     .feature .item5 {
+        font-size: 24px;
+        top: 48.5%;
+        left: 47%;
+     }
+     .feature .item6 {
+        font-size: 24px;
+        top: 51%;
+        left: 47%;
+     }
+     .feature .item7, .item8, .item9, .item10{
+        display: none;
+    }
+}
+
+/* -------------------------------------- system requirement -------------------------------------------- */
+
+.syst-req{
+    background-image: url(image/requirements.png);
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    min-height: 140vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover ;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.syst-header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    width: 300px;
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    
+}
+
+.syst-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18;
+    color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 650px;
+    
+}
+
+.syst-box{
+    width: 600px;
+    height: 420px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    position: absolute;
+    top: 388px;
+    left: 121px;
+    opacity: 0.7;
+}
+
+.syst-line1{
+    width: 600px;
+    position: absolute;
+    border: 1px solid white;
+    left: 121px;
+    top: 530px;
+    opacity: 0.7;
+}
+.syst-line2{
+    width: 600px;
+    position: absolute;
+    border: 1px solid white;
+    left: 121px;
+    top: 670px;
+    opacity: 0.7;
+}
+.syst-line3{
+    height: 280px;
+    position: absolute;
+    border: 1px solid white;
+    left: 420px;
+    top: 389px;
+    opacity: 0.7;
+}
+
+
+.syst-boxhall{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #FFB548;
+
+}
+.syst-boxh1{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    
+}
+.syst-boxh2{
+    position: absolute;
+    top: 400px;
+    left: 440px;
+}
+.syst-boxh3{
+    position: absolute;
+    top: 550px;
+    left: 150px;
+}
+.syst-boxh4{
+    position: absolute;
+    top: 550px;
+    left: 440px;
+}
+.syst-boxh5{
+    position: absolute;
+    top: 690px;
+    left: 150px;
+}
+
+.syst-boxp1{
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    top: 430px ;
+    line-height: 35px;
+    left: 130px;
+    width: 330px;
+    text-align: left;
+}
+.syst-boxp2{
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    top: 430px ;
+    line-height: 35px;
+    left: 430px;
+    width: 330px;
+    text-align: left;
+}
+.syst-boxp3{
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    top: 600px ;
+    line-height: 35px;
+    left: 150px;
+    width: 330px;
+    text-align: left;
+}
+.syst-boxp4{
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    top: 600px ;
+    line-height: 35px;
+    left: 440px;
+    width: 330px;
+    text-align: left;
+}
+.syst-boxp5{
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    top: 730px ;
+    line-height: 25px;
+    left: 150px;
+    width: 500px;
+    text-align: left;
+}
