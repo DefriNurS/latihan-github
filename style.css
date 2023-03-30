@@ -753,3 +753,298 @@ nav ul li a{
     width: 500px;
     text-align: left;
 }
+
+@media (max-width: 910px){
+    .syst-text{
+        left: 35%;
+    }
+}
+@media (max-width: 730px){
+    .syst-header{
+        font-size: 50px;
+        top: 15%;
+        left: 44%;
+        text-align: left;
+        transform: translate(-50%,-50%);
+     
+        
+    }
+}
+
+/* --------------------------------- top scores ----------------------------------------- */
+
+.topscores{
+    background-image: url(image/top-score-bg.png);
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    min-height: 140vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover ;
+    position: relative;
+}
+.topscores .item1{
+    font-size: 56px;
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    top: 340px ;
+    left: 118px;
+    line-height: 35px;
+    text-align: left;   
+}
+.topscores .item2{
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 426px ;
+    left: 121px;
+    line-height: auto;
+    text-align: left;   
+}
+.scoreitem3{
+    display: inline-block;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    padding: 12px 34px;
+    font-size: 16px;
+    background: #FFB548 ;
+    box-shadow: 3px 3px 8px black;
+    position: absolute;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 4px;
+    top: 523px;
+    left: 118.58px;
+
+}
+.scoreitem3:hover{
+    background: #f44336;
+    transition: 0.4s;
+    color: white;
+}
+
+.scorebox1{
+    width: 453px;
+    height: 183px;
+    background-color: #1e1f20;
+    position: relative;
+    border-radius: 10px;
+    top: -900px;
+    left: 868px;
+}
+.scorebox1 .image{
+    background-image: url(image/evan-lahti.jpg);
+    display: inline;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    left: 22px;
+    top: 15px;
+    border-radius: 65px;
+    box-shadow: 6px 5px 0px #FFB548;
+}
+.scorebox1 .name{
+    color: #FFB548;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    top: 26px;
+    left:  109px;
+    position: absolute;
+}
+.scorebox1 .work-place{
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    top: 103px;
+    left: 17px;
+    position: absolute;
+}
+.scorebox1 .quote{
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    top: 50px;
+    left: 109px;
+    position: absolute;
+    opacity: 0.5;
+}
+.scorebox1 .date{
+    color: #fff;
+    font-size: 14px;
+    line-height: 19px;
+    top: 141px;
+    left: 17px;
+    position: absolute;
+    opacity: 0.5;
+}
+.scorebox1 .twitter{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 414px;
+    opacity: 0.3;
+}
+
+.scorebox2{
+    width: 453px;
+    height: 183px;
+    background-color: #1e1f20;
+    position: relative;
+    border-radius: 10px;
+    top: -870px;
+    left: 723px;
+}
+.scorebox2 .image{
+    background-image: url(image/jada-griffin.jpg);
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    left: 22px;
+    top: 15px;
+    border-radius: 65px;
+    box-shadow: 6px 5px 0px #FFB548;
+}
+.scorebox2 .name{
+    color: #FFB548;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    top: 26px;
+    left:  109px;
+    position: absolute;
+}
+.scorebox2 .quote{
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    top: 50px;
+    left: 109px;
+    position: absolute;
+    opacity: 0.5;
+}
+.scorebox2 .work-place{
+    color: #fff;
+    font-size: 18px;
+    line-height: 23px;
+    top: 96px;
+    left: 17px;
+    position: absolute;
+}
+.scorebox2 .date{
+    color: #fff;
+    font-size: 14px;
+    line-height: 19px;
+    top: 141px;
+    left: 17px;
+    position: absolute;
+    opacity: 0.5;
+}
+.scorebox2 .twitter{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 414px;
+    opacity: 0.3;
+}
+
+.scorebox3{
+    width: 453px;
+    height: 183px;
+    background-color: #1e1f20;
+    position: relative;
+    border-radius: 10px;
+    top: -830px;
+    left: 929px;
+}
+.scorebox3 .image{
+    background-image: url(image/aaron-williams.jpg);
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    left: 22px;
+    top: 15px;
+    border-radius: 65px;
+    box-shadow: 6px 5px 0px #FFB548;
+}
+.scorebox3 .name{
+    color: #FFB548;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    top: 26px;
+    left:  109px;
+    position: absolute;
+}
+.scorebox3 .quote{
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    top: 50px;
+    left: 109px;
+    position: absolute;
+    opacity: 0.5;
+}
+.scorebox3 .work-place{
+    color: #fff;
+    font-size: 18px;
+    line-height: 23px;
+    top: 96px;
+    left: 17px;
+    position: absolute;
+}
+.scorebox3 .date{
+    color: #fff;
+    font-size: 14px;
+    line-height: 19px;
+    top: 141px;
+    left: 17px;
+    position: absolute;
+    opacity: 0.5;
+}
+.scorebox3 .twitter{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 414px;
+    opacity: 0.3;
+}
+@media (max-width: 1380px){
+    .scorebox1{
+        left: 700px;
+    }
+    .scorebox2{
+        left: 623px;
+    }
+    .scorebox3{
+        left: 729px;
+    }
+}
+@media (max-width: 1170px){
+    .scorebox1{
+        left: 500px;
+    }
+    .scorebox2{
+        left: 423px;
+    }
+    .scorebox3{
+        left: 529px;
+    }
+}
+@media (max-width: 810px){
+    .scorebox1{
+        left: 100px;
+    }
+    .scorebox2{
+        left: 23px;
+    }
+    .scorebox3{
+        left: 129px;
+    }
+}
