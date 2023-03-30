@@ -1048,3 +1048,102 @@ nav ul li a{
         left: 129px;
     }
 }
+
+/* ----------------------------------------------- newletter -------------------------------------------------- */
+.newsletter{
+    background-image: url(image/newsletter.png);
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    min-height: 140vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover ;
+    position: relative;
+    top: -550px;
+}
+.newsletter .gambar{
+    position: absolute;
+    height: 694px;
+    width: 445px;
+    top: 50px;
+    left: 160px;
+    border-radius: 50px;
+}
+.newsletter .p1{
+    width: 240px;
+    height: 28px;
+    font-size: 24px;
+    color: white;
+    line-height: 27px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 136px;
+    left: 650px;
+
+}
+.newsletter .h1{
+    width: 677px;
+    height: 76px;
+    font-size: 65px;
+    color: white;
+    line-height: 74px;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 213px;
+    left: 510px;
+
+}
+.newsletter .p2{
+    width: 644px;
+    height: 136px;
+    font-size: 18px;
+    color: white;
+    line-height: 22px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 378px;
+    left: 675px;
+    text-align: left;
+
+}
+
+@media (max-width: 810px){
+    .newsletter .p1{
+        width: 240px;
+        height: 28px;
+        font-size: 20px;
+        color: white;
+        line-height: 27px;
+        letter-spacing: 2px;
+        position: absolute;
+        top: 136px;
+        left: 80px;
+    
+    }
+    .newsletter .h1{
+        width: 677px;
+        height: 76px;
+        font-size: 50px;
+        color: white;
+        line-height: 74px;
+        letter-spacing: 3px;
+        position: absolute;
+        top: 213px;
+        left: 40px;
+    
+    }
+    .newsletter .p2{
+        width: 500px;
+        height: auto;
+        font-size: 15px;
+        color: white;
+        line-height: 22px;
+        letter-spacing: 2px;
+        position: absolute;
+        top: 378px;
+        left: 100px;
+        text-align: left;
+    
+    }
+}   
